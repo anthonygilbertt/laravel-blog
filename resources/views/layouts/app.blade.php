@@ -1,11 +1,25 @@
+{{-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
+    <script src="{{ mix('/js/app.js') }}" defer></script>
+    @inertiaHead
+  </head>
+  <body>
+    @inertia
+  </body>
+</html> --}}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
         <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{{ asset("/css/app.css") }}" rel="stylesheet">
-    {{-- <link href="/css/app.css" rel="stylesheet"> --}}
-    <title>{{config('app.name','Laravel Blog')}}</title>
+<link href="/css/app.css" rel="stylesheet">
+<title>{{config('app.name','Laravel Blog')}}</title>
 </head>
     <body>
     @include('inc.navbar')

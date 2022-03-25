@@ -6,14 +6,14 @@
   <div class="max-w-md w-full space-y-8">
     <div>
       <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
-      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign up</h2>
+      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign up for an account</h2>
     </div>
     <form class="mt-8 space-y-6" action="#" method="POST">
       <input type="hidden" name="remember" value="true">
       <div class="rounded-md shadow-sm -space-y-px">
       <div>
-          <label for="user-name" class="sr-only">User name</label>
-          <input id="user-name" name="name" type="text" autocomplete="name" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="User name">
+          <label for="user-name" class="sr-only">Full Name</label>
+          <input id="user-name" name="name" type="text" autocomplete="name" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Full Name">
         </div>
         <div>
           <label for="email-address" class="sr-only">Email address</label>
