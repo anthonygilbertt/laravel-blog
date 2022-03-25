@@ -2,7 +2,7 @@
 
 -   [x] Get app to where it runs in the browser
 -   [x] Setup Tailwind
--   [] Setup database
+-   [ ] Setup database
 
 <!-- - [] Install
 -   [x]
