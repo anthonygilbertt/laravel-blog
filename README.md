@@ -5,7 +5,8 @@
 -   [ ] Setup database
 
 -   [x] Part 2 - https://www.youtube.com/watch?v=H3uRXvwXz1o
--   [ ] Part 3 - https://www.youtube.com/watch?v=sLFNVXY0APk
+-   [x] Part 3 - https://www.youtube.com/watch?v=sLFNVXY0APk
+-   [ ] Part 4 - https://www.youtube.com/watch?v=bSG2YMqJJys
 <!-- - [] Install
 -   [x]
 -   [x] Earth (Orbit/Moon)
