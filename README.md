@@ -4,6 +4,7 @@
 -   [x] Setup Tailwind
 -   [ ] Setup database
 
+-   [ ] Part 2 - https://www.youtube.com/watch?v=H3uRXvwXz1o
 <!-- - [] Install
 -   [x]
 -   [x] Earth (Orbit/Moon)
