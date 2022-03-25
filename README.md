@@ -2,6 +2,8 @@
 
 -   [x] Get app to where it runs in the browser
 -   [x] Setup Tailwind
+-   [] Setup database
+
 <!-- - [] Install
 -   [x]
 -   [x] Earth (Orbit/Moon)
