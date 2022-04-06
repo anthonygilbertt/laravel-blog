@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PostsController;
 
 
 /*
@@ -29,6 +30,11 @@ Route::get('/services', [PagesController::class, 'services']);
 Route::get('/', [PagesController::class, 'logout']);
 Route::get('/', [PagesController::class, 'login']);
 Route::get('/signup', [PagesController::class, 'signup']);
+
+// Route::resource('posts', PostsController::class)->parameters([
+//     'posts' => 'admin_user'
+// ]);
+Route::resource('posts', PostsController::class);
 // Route::get('/', 'PagesController@index');
 // Route::get('/', function() {
 //     return "Hey";
