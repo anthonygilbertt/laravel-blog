@@ -2,7 +2,7 @@
 
 @section('content')
     <h1 class="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Posts</h1>
-    @if(count($posts) > 1)
+    @if(count($posts) > 0)
         @foreach($posts as $post)
             {{-- <h3 class="ml-4">{{$post->title}}</h3> --}}
             <div class="relative">
@@ -12,6 +12,11 @@
 
 
         @endforeach
+        <br>
+        <div>
+        {{$posts->links()}}
+        </div>
+
     @else
         <p>No posts found</p>
     @endif
