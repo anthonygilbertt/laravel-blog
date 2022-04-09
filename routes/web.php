@@ -34,6 +34,7 @@ Route::get('/signup', [PagesController::class, 'signup']);
 // Route::resource('posts', PostsController::class)->parameters([
 //     'posts' => 'admin_user'
 // ]);
+// Route::post('/posts/create', [PostController::class, 'store']);
 Route::resource('posts', PostsController::class);
 // Route::get('/', 'PagesController@index');
 // Route::get('/', function() {
