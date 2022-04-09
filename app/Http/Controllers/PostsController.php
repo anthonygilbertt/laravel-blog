@@ -20,7 +20,7 @@ class PostsController extends Controller
         // return Post::where('title', 'Post Two')->get();
         // $posts = DB::select('SELECT * FROM posts');
         // $posts = Post::orderby('title', 'desc')->take(1)->get();
-        $posts = Post::orderby('title', 'desc')->paginate(1);
+        $posts = Post::orderby('created_at', 'desc')->paginate(10);
         // $posts = Post::orderby('title', 'desc')->get();
         return view('posts.index')->with('posts', $posts);
         // return view('index');
@@ -50,8 +50,19 @@ class PostsController extends Controller
             'body' => 'required'
 
         ]);
-        return 123;
+        // return 123;
+        // create post
+        $post = new Post;
+        $post->title = $request->input('title');
+        $post->body = $request->input('body');
+        $post->save();
+
+        return redirect('/posts')->with('success', 'Post Created');
+
     }
+
+
+
 
     /**
      * Display the specified resource.
@@ -65,6 +76,9 @@ class PostsController extends Controller
         $post = Post::find($id);
         return view('posts.show')->with('post', $post);
     }
+
+
+
 
     /**
      * Show the form for editing the specified resource.
