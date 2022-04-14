@@ -1,4 +1,4 @@
-{{-- check for errors --}}
+{{-- check for errors if validation fails --}}
 @if(count($errors) > 0)
     @foreach($errors->all() as $error)
         <div class="animate-bounce ">

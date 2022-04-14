@@ -3,6 +3,7 @@
 -   [x] Get app to where it runs in the browser
 -   [x] Setup Tailwind
 -   [x] Setup database
+-   [ ] Create a page for Creating Posts
 
 -   [x] Part 2 - https://www.youtube.com/watch?v=H3uRXvwXz1o
 -   [x] Part 3 - https://www.youtube.com/watch?v=sLFNVXY0APk
