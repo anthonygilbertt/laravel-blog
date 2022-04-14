@@ -49,7 +49,7 @@ class PostsController extends Controller
             'body' => 'required'
 
         ]);
-        // return 123;
+
         // create post
         $post = new Post;
         $post->title = $request->input('title');
@@ -59,9 +59,6 @@ class PostsController extends Controller
         return redirect('/posts')->with('success', 'Post Created');
 
     }
-
-
-
 
     /**
      * Display the specified resource.
@@ -76,9 +73,6 @@ class PostsController extends Controller
         return view('posts.show')->with('post', $post);
     }
 
-
-
-
     /**
      * Show the form for editing the specified resource.
      *
@@ -88,6 +82,7 @@ class PostsController extends Controller
     public function edit($id)
     {
         //
+        // TODO: Add the WYSIWYG editor here (probably going to be similar to the create post view)
     }
 
     /**
