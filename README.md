@@ -11,7 +11,8 @@
 -   [x] Part 5 - https://www.youtube.com/watch?v=neSHAWdE44c
 -   [x] Part 6 - https://www.youtube.com/watch?v=emyIlJPxZr4
 -   [x] Part 7 - https://www.youtube.com/watch?v=-QapNzUE4V0&ab_channel=TraversyMedia
--   [ ] Part 8 - https://www.youtube.com/watch?v=PAP8IS_ak6w
+-   [x] Part 8 - https://www.youtube.com/watch?v=PAP8IS_ak6w
+-   [ ] Part 9 - https://www.youtube.com/watch?v=ORus3-By4lk&ab_channel=TraversyMedia
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
